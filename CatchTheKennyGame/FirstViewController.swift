@@ -13,11 +13,9 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
 
     }
-    
+
     @IBAction func startButtonClicked(_ sender: Any) {
-        
         performSegue(withIdentifier: "toViewController", sender: nil)
-        
     }
     
 }
